@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    border: 5px solid #000;
+    width: 82%;
+    height: 950px;
+    background-color: rgb(109, 49, 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.chessboard {
+    width:80% ;
+    border: 10px solid rgb(57, 25, 2);
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.chessboard > div {
+    width: 10%;
+    height: 100px;
+    width: calc(100%/8);
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 1px #fff;
+}
+.a {
+    background-color: #fff;
+}
+.b {
+    background-color: #000;
+}
